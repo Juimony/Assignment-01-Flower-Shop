@@ -1,0 +1,383 @@
+
+*{
+margin: 0px;
+    padding:0px;
+    font-family: Lato;
+}
+
+                        /* PART 01: (full Header) */
+/* body>header */
+header{
+  width: 1500px;
+  height: 550px;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex; 
+  justify-content: space-between;
+
+
+
+
+}
+
+.title{
+    padding-top: 100px;
+    padding-left: 130px;
+}
+
+.flower-title{
+    /* Let's make beautiful flowers a part of your life. */
+    width: 400px;
+    flex-grow: 0;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+    color: #272727;
+
+}
+.flower-description{
+    /* paragraph */
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400px;
+margin-top: 14px;
+margin-bottom: 5px;
+width: 634px;
+height: 90px;
+
+
+}
+
+.shop-now{
+    /* Button */
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 40px;
+border-radius: 8px;
+background: #E55473;
+border:0px;
+
+
+
+}
+
+                        /* PART 02: Our Featured Flower */
+/* body>main */
+/* three div into section-01 */
+.section-01{
+    width: 850px;
+    margin: 100px 310px 0px 300px;
+background: #FFF;
+
+
+}
+.parent-div-flex{
+    display: flex;
+    /* padding: 0px 100px 0px 100px; */
+    justify-content: center;
+}
+
+.section-title{
+    /* Our Featured Flowers */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 150px;
+
+}
+.section-description{
+    /* paragraph */
+   
+    flex-grow: 0;
+    margin: 24px 0 0;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+.flower-photo-01{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 200px;
+height: 300px;
+padding: 30px 30px 0px 30px;
+margin-right: 30px;
+gap: 30px;
+
+}
+.flower-photo-02{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 200px;
+height: 300px;
+padding: 30px 30px 0px 30px;
+margin-right: 30px;
+    
+}
+.flower-photo-03{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 200px;
+height: 300px;
+padding: 30px 30px 0px 30px;
+}
+ 
+.pink-flower-tree{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+ .section-02{
+/* Delivery */
+
+    width: 850px;
+ margin: 100px 300px 100px 310px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 30px 0px;
+
+   
+ }
+
+ .Delivery-01, .Delivery-02,  .Delivery-03{
+    color: rgba(39, 39, 39, 0.80);
+font-family: Lato;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 145.833% */
+text-align: center;
+
+ }
+
+ .image-01{
+    /* delivery */
+    width: 70px;
+  height: 70px;
+  margin: 0 100px 24px;
+  
+ }
+ 
+ 
+
+ 
+ .section-03{
+    /* Hot deal */
+    width: 1500px;
+    height: 300px;
+    padding: 100px 0px;
+    /* margin: 100px 0; */
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+  
+  
+
+ }
+ .section-03-title{
+    color: #272727;
+font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+
+ }
+ .hot-deal{
+    padding: 100px 0px;
+    padding-right: 60px;
+    text-align: center;
+ }
+ .paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 24px;
+line-height: 1.67;
+
+ }
+
+
+ .off{
+    color: #E55473;
+ }
+ .sign-up{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-flex;
+padding: 20px 40px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: 0px;
+text-align: center;
+
+ }
+
+ /* PART 05: Instagram part */
+
+ .section-04{
+    width: 850px;
+    margin: 100px 150px 0px 310px;
+justify-content: center;
+ }
+
+ .instagram{
+    height: 48px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #272727;
+ }
+ .instagram-para{
+    height: 60px;
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+ }
+
+ .instagram-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+ }
+
+.instagram-image{
+    width: 200px;
+height: 300px;
+margin: 10px;
+}
+
+/* PART 06: Get The Latest Deals */
+
+.section-05{
+
+width: 850px;
+margin: 100px 150px 0px 310px;
+padding: 70px 0px;
+background-image: url('Rectangle\ 9.png')
+}
+
+.get-the-latest-deal{
+    width: 950px;
+    height: 48px;
+    margin: 0 0 16px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #272727;
+}
+/* $30 coupon for first shopping */
+.coupon{
+    width: 800px;
+  height: 30px;
+  flex-grow: 0;
+  margin: 16px 71px 0;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+}
+.coupon-flex{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.action{
+    margin-bottom: 24px;
+    padding: 18px 349px 18px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border:0; 
+    color: white;
+    font-size: 15px;
+  font-weight: 400;
+
+}
+
+.subscribe{
+    width: 150px;
+  height: 60px;
+  margin: 0 0 0 16px;
+  padding: 18px 31px 18.3px;
+  border-radius: 8px;
+  background-color: #e55473;
+  color: #FFF;
+font-size: 20px;
+border:0px;
+}
+footer{
+    width: 1500px;
+    height: 400px;
+    margin: 128px 0 0;
+   padding-top: 100px;
+    background-color: #111010;
+    font-family: Lato;
+    line-height: 1.67;
+    flex-grow: 0;
+}
+.footer-flower{
+/* h1 FLower shop */
+text-align: center;
+font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+line-height: 1.67;
+} 
+.flower{
+    
+color: #e55473;
+font-family: Lato;
+
+}
+.shop{
+    
+color: #ffffff;
+font-family: Lato;
+}
+
+
+ 
+
+.footer-paragraph{
+   
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+.footer-paragraph-02{
+    font-family: Lato;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.67;
+  }
+
+
+
+
+ 
