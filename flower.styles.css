@@ -8,7 +8,8 @@ margin: 0px;
                         /* PART 01: (full Header) */
 /* body>header */
 header{
-  width: 1500px;
+  width: 1300px;
+  margin: 0 auto;
   height: 550px;
   background-color: rgba(229, 84, 115, 0.1);
   display: flex; 
@@ -66,12 +67,9 @@ border:0px;
 /* body>main */
 /* three div into section-01 */
 .section-01{
-    width: 850px;
-    margin: 100px 310px 0px 300px;
-background: #FFF;
-
-
+    margin-top: 50px;
 }
+
 .parent-div-flex{
     display: flex;
     /* padding: 0px 100px 0px 100px; */
@@ -138,13 +136,12 @@ padding: 30px 30px 0px 30px;
  .section-02{
 /* Delivery */
 
-    width: 850px;
- margin: 100px 300px 100px 310px;
     display: flex;
     justify-content: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     padding: 30px 0px;
+    margin: 100px 150px;
 
    
  }
@@ -173,7 +170,6 @@ text-align: center;
  
  .section-03{
     /* Hot deal */
-    width: 1500px;
     height: 300px;
     padding: 100px 0px;
     /* margin: 100px 0; */
@@ -234,9 +230,9 @@ text-align: center;
  /* PART 05: Instagram part */
 
  .section-04{
-    width: 850px;
-    margin: 100px 150px 0px 310px;
+   
 justify-content: center;
+margin-top: 50px;
  }
 
  .instagram{
@@ -248,7 +244,6 @@ justify-content: center;
     color: #272727;
  }
  .instagram-para{
-    height: 60px;
     font-family: Lato;
     font-size: 18px;
     text-align: center;
@@ -271,9 +266,8 @@ margin: 10px;
 
 .section-05{
 
-width: 850px;
-margin: 100px 150px 0px 310px;
 padding: 70px 0px;
+margin:100px 200px;
 background-image: url('Rectangle\ 9.png')
 }
 
@@ -329,7 +323,6 @@ font-size: 20px;
 border:0px;
 }
 footer{
-    width: 1500px;
     height: 400px;
     margin: 128px 0 0;
    padding-top: 100px;
